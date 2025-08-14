@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTU Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 80px;
+            vertical-align: middle;
+        }
+
+        .header h1 {
+            display: inline-block;
+            margin-left: 10px;
+            color: #003399;
+            font-size: 22px;
+            vertical-align: middle;
+        }
+
+        .form-section, .result-section {
+            border: 1px solid #ec3e3e;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .form-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .form-section label {
+            flex: 1 0 100%;
+            margin-bottom: 5px;
+        }
+
+        .form-section select, 
+        .form-section input[type="text"], 
+        .form-section input[type="password"] {
+            flex: 1 0 48%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ec3e3e;
+        }
+
+        .form-section .code-box {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .form-section .code-box input[type="text"] {
+            flex: 1;
+        }
+
+        .form-section button {
+            padding: 5px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .result-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .result-section div {
+            flex: 1;
+        }
+
+        .info-section {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #800080;
+        }
+
+        .info-section a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+        /* Example: change styles for screens smaller than 768px */
+        @media (max-width: 768px) {
+          body {
+             font-size: 14px;
+              }
+          .container {
+             padding: 10px;
+              }
+                                  }
+
+
+        hr {
+            margin: 20px 0;
+            border: 0.5px solid #ec3e3e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Gujarat_Technological_University_logo.png" alt="GTU Logo">
+            <h1>Gujarat Technological University Ahmedabad</h1>
+        </div>
+
+        <div class="form-section">
+            <div>
+                <label for="session">Session</label>
+                <select id="session">
+                    <option>Summer 2025</option>
+                </select>
+            </div>
+            <div>
+                <label for="exam">Exam</label>
+                <select id="exam">
+                    <option>....BA SEM 1 - Remedial (MAY 2025)</option>
+                </select>
+            </div>
+            <div>
+                <label for="enroll">Enroll No.</label>
+                <input type="text" id="enroll" placeholder="Enrollment No.">
+            </div>
+            <div>
+                <label for="seat">Seat No.</label>
+                <input type="text" id="seat" placeholder="e.g. _123456">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Student Portal Password">
+            </div>
+            <div class="code-box">
+                <span>f0468</span>
+                <input type="text" placeholder="Enter Code">
+            </div>
+            <div>
+                  <button onclick="window.location.href='page2.html'">Search</button>
+            </div>
+        </div>
+
+        <div class="result-section">
+            <div>
+                <p>Name: ________</p>
+                <p>Enrollment No.: ________</p>
+                <p>Exam Seat No.: ________</p>
+            </div>
+            <div>
+                <p>Declared On: ________</p>
+                <p>Exam: ________</p>
+                <p>Branch: ________</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="info-section">
+            <p>This is a Computer generated provisional result, please consider the Hard-copy Gradesheet as final result.</p>
+            <p>Result queries will be entertained till 15-days from the Result declaration date. No result queries will be entertained afterword.</p>
+            <p>GTU's Official Instagram Page: <a href="https://www.instagram.com/gtumedia?r=nametag" target="_blank">https://www.instagram.com/gtumedia?r=nametag</a></p>
+            <p>GTU's Official YouTube Channel: <a href="https://www.youtube.com/c/GujaratTechnologicalUniversity" target="_blank">https://www.youtube.com/c/GujaratTechnologicalUniversity</a></p>
+        </div>
+    </div>
+</body>
+</html>

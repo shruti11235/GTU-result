@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GTU Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 20px;
+            color: #000;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        header img {
+            width: 80px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline;
+            font-size: 20px;
+            color: #003399;
+            margin-left: 10px;
+        }
+        .search-section, .result-section {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .search-section {
+            background-color: #f0f4ff;
+            width: 100%;
+            max-width: 500px;
+        }
+        .search-section label {
+            font-weight: bold;
+        }
+        .search-section input, .search-section select {
+            width: calc(100% - 10px);
+            padding: 5px;
+            margin: 5px 0 10px 0;
+        }
+        .search-section button {
+            padding: 5px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-result {
+            background-color: #e6f7e6;
+            border: 1px solid #b3e6b3;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .backlog, .spi-cpi {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .not-cleared {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .info {
+            margin-top: 10px;
+            font-size: 13px;
+            color: purple;
+        }
+        .info a {
+            color: blue;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            body {
+                margin: 10px;
+            }
+            header h1 {
+                display: block;
+                font-size: 18px;
+                margin: 5px 0 0 0;
+            }
+            .search-section, .result-section, table {
+                width: 100%;
+            }
+            th, td {
+                font-size: 12px;
+                padding: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Gujarat_Technological_University_logo.png/220px-Gujarat_Technological_University_logo.png" alt="GTU Logo">
+        <h1>Gujarat Technological University Ahmedabad</h1>
+    </header>
+
+    <div class="search-section">
+        <label>SEARCH :</label><br>
+        <label>Session</label><br>
+        <select>
+            <option>Summer 2025</option>
+        </select><br>
+        <label>Exam</label><br>
+        <select>
+            <option>BE SEM 4 - Regular (MAY 2025)</option>
+        </select><br>
+        <label>Enroll No.</label><br>
+        <input type="text" value="240603109017"><br>
+        <label>Seat No.</label><br>
+        <input type="text" placeholder="(e.g. _123456)"><br>
+        <label>Password</label><br>
+        <input type="password" placeholder="Student Portal Password"><br>
+        <label>Code :</label><br>
+        <input type="text" value="129a">
+        <button>Search</button>
+    </div>
+
+    <div class="search-result">
+        <strong>Name:</strong> PAREKH DHRUMILKUMAR SHAILESHBHAI<br>
+        <strong>Enrollment No.:</strong> 240603109017<br>
+        <strong>Exam Seat No.:</strong> 240603109017 <strong>Declared On:</strong> 15 Aug 2025<br>
+        <strong>Exam:</strong> BE SEM 4 - Regular (MAY 2025)<br>
+        <strong>Branch:</strong> ELECTRICAL ENGINEERING
+    </div>
+
+    <table>
+        <tr>
+            <th>SUBJECT CODE</th>
+            <th>SUBJECT NAME</th>
+            <th>ESE ABSENT</th>
+            <th colspan="3">Theory Grade</th>
+            <th colspan="3">Practical Grade</th>
+            <th>Subject Grade</th>
+        </tr>
+        <tr>
+            <td>3140005</td>
+            <td>Design Engineering 1 B</td>
+            <td>-</td>
+            <td>ESE</td>
+            <td>PA/CA</td>
+            <td>TOTAL</td>
+            <td>ESE</td>
+            <td>PA/CA</td>
+            <td>TOTAL</td>
+            <td>AA</td>
+        </tr>
+        <tr>
+            <td>3140911</td>
+            <td>Economics for Engineers</td>
+            <td>-</td>
+            <td>DD</td>
+            <td>CD</td>
+            <td>DD</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>DD</td>
+        </tr>
+        <tr>
+            <td>3140912</td>
+            <td>Electromagnetic Fields</td>
+            <td>-</td>
+            <td>FF</td>
+            <td>CD</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+        </tr>
+        <tr>
+            <td>3140913</td>
+            <td>Electrical Machine- I</td>
+            <td>-</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+        </tr>
+        <tr>
+            <td>3140914</td>
+            <td>Power System- I</td>
+            <td>-</td>
+            <td>FF</td>
+            <td>CD</td>
+            <td>FF</td>
+            <td>BC</td>
+            <td>BB</td>
+            <td>BC</td>
+            <td>FF</td>
+        </tr>
+        <tr>
+            <td>3140915</td>
+            <td>Power Electronics</td>
+            <td>-</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+            <td>FF</td>
+        </tr>
+    </table>
+
+    <div class="backlog">Current Sem. Backlog: 4</div>
+    <div class="spi-cpi">Total Backlog: 7 | SPI: 0.96 | CPI: 1.50</div>
+
+    <div class="not-cleared">Sorry! You have not cleared this exam.</div>
+
+    <div class="info">
+        This is a Computer generated provisional result, please consider the Hard-copy Gradesheet as final result.<br>
+        Result queries will be entertained till 15-days from the Result declaration date.<br>
+        No result queries will be entertained afterword.<br><br>
+        GTU's Official Instagram Page: <a href="https://www.instagram.com/gtumedia?r=nametag">https://www.instagram.com/gtumedia?r=nametag</a><br>
+        GTU's Official YouTube Channel: <a href="https://www.youtube.com/c/GujaratTechnologicalUniversity">https://www.youtube.com/c/GujaratTechnologicalUniversity</a>
+    </div>
+</body>
+</html>
